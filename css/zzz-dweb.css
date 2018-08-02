@@ -1,0 +1,15 @@
+/* Correction du header */
+
+#sticky-nav > div > div.block.block-small.quicklinks.header-links {
+    margin-left: 20.1%;
+}
+
+.is-stuck #sticky-nav > div > div.block.block-small.quicklinks.header-links {
+    margin-left: 0%;
+}
+
+/* Liste de partenaire en double */
+
+div.pl-item-group.js-pl.js-pal.is-visible > div:nth-child(1) {
+   display: none;
+}
