@@ -1449,7 +1449,6 @@
     header .main-navigation:after {
         position: absolute;
         content: "";
-        background-color: red;
         width: 122px;
         height: 122px;
         right: 0;
