@@ -1445,6 +1445,20 @@
         font-size: 16px;
         letter-spacing: 0.05em;
     }
+
+    header .main-navigation:after {
+        position: absolute;
+        content: "";
+        background-color: red;
+        width: 122px;
+        height: 122px;
+        right: 0;
+        bottom: -122px;
+        background-image: url(img/Bloc_Cap_France.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
     header .mn-item-has-megamenu .mn-menu-submenu {
         -webkit-column-count: 1;
         -o-column-count: 1;
