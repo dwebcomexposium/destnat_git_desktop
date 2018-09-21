@@ -1445,19 +1445,6 @@
         font-size: 16px;
         letter-spacing: 0.05em;
     }
-
-    header .main-navigation:after {
-        position: absolute;
-        content: "";
-        width: 122px;
-        height: 122px;
-        right: 0;
-        bottom: -122px;
-        background-image: url(img/Bloc_Cap_France.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-
-    }
     header .mn-item-has-megamenu .mn-menu-submenu {
         -webkit-column-count: 1;
         -o-column-count: 1;
@@ -2579,10 +2566,10 @@
     }
     .block.block-small.quicklinks.thematiques .ql-item{
         float: left;
-        width: -webkit-calc(33.3333% - 20px);
-        width: calc(33.3333% - 20px);
+        width: -webkit-calc(25% - 20px);
+        width: calc(25% - 20px);
         margin:10px;
-        min-height: 220px;
+        min-height: 260px;
         position: relative;
         background-repeat: no-repeat;
         background-position: center center;
@@ -2601,23 +2588,39 @@
     .block.block-small.quicklinks.thematiques .ql-item.linkid145825{
         background-image: url(img/back_them04.jpg);
     }
-    .block.block-small.quicklinks.thematiques .ql-item.linkid145826{
-        background-image: url(img/back_them05.jpg);
-    }
     .block.block-small.quicklinks.thematiques .ql-item.linkid145827{
         background-image: url(img/back_them06.jpg);
     }
-    .block.block-small.quicklinks.thematiques .ql-item a{
+    .block.block-small.quicklinks.thematiques .ql-item.linkid455763{
+        background-image: url(img/back_them07.jpg);
+    }
+    .block.block-small.quicklinks.thematiques .ql-item.linkid455936{
+        background-image: url(img/back_them08.jpg);
+    }
+    .block.block-small.quicklinks.thematiques .ql-item.linkid455939{
+        background-image: url(img/back_them09.jpg);
+    }
+    .block.block-small.quicklinks.thematiques .ql-item a {
         bottom: 0;
         display: -webkit-box;
         display: -ms-flexbox;
         display: -webkit-flex;
         display: flex;
         height: 100%;
-        position: absolute;
-        top: 0;
+        position: relative;
+        resize: 0;
         width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 260px;
     }
+    .block.block-small.quicklinks.thematiques i.icon {
+        height: 61px !important;
+        width: 100% !important;
+        margin-bottom: 20px !important;
+    }
+
     .block.block-small.quicklinks.thematiques .ql-item:before{
         background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0;
         bottom: 0;
@@ -2650,12 +2653,13 @@
         max-width: 100%;
         bottom: 0;
         position: absolute;
-        margin: auto auto 40px;
+        margin: 0;
         padding: 10px 3px 1px;
         position: relative;
         -webkit-transition: 0.2s;
         -o-transition: 0.2s;
         transition: 0.2s;
+        line-height: 35px; 
     }
     .block.block-small.quicklinks.thematiques .ql-item .icon:before{
         position: absolute;
@@ -2664,7 +2668,7 @@
         height: 61px;
         left: 50%;
         position: absolute;
-        bottom: 110px;
+        /* bottom: 110px; */
          -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
             transform: translateX(-50%);
@@ -2689,6 +2693,15 @@
     }
     .block.block-small.quicklinks.thematiques .ql-item .icon.ico-bien:before{
         background-position:  -220px -61px;
+    }
+    .block.block-small.quicklinks.thematiques .ql-item .icon.ico-velo:before{
+        background-position: -330px top;
+    }
+    .block.block-small.quicklinks.thematiques .ql-item .icon.ico-matos:before{
+        background-position:  -330px -61px;
+    }
+    .block.block-small.quicklinks.thematiques .ql-item .icon.ico-rando-famille:before{
+        background-position:  -440px top;
     }
 
   /*PUB LARGE*/
