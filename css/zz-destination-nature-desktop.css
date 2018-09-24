@@ -2668,7 +2668,7 @@
         height: 61px;
         left: 50%;
         position: absolute;
-        /* bottom: 110px; */
+        bottom: inherit !important;
          -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
             transform: translateX(-50%);
