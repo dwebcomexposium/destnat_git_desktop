@@ -2484,7 +2484,7 @@
 	   padding: 10px 10px 6px;
 	   text-transform: uppercase;
 	   width: 378px;
-	   -webkit-appearance: none;
+	   /* -webkit-appearance: none; */
 	}
   /*BLOC EXPERIENCE*/
   	.block.block-page.list-articles.experience,
