@@ -13,3 +13,45 @@
 div.pl-item-group.js-pl.js-pal.is-visible > div:nth-child(1) {
    display: none;
 }
+
+/* Pictos Mega menu */
+i.icon.picto-arbres {
+    background: url(/theme/destnat_git_desktop/img/sprite.png) 0 0px no-repeat;
+    padding: 5px 0 0 42px;
+}
+i.icon.picto-boots {
+    background: url(/theme/destnat_git_desktop/img/sprite.png) 0 -43px no-repeat;
+    padding: 5px 0 0 42px;
+}
+i.icon.picto-feu {
+    background: url(/theme/destnat_git_desktop/img/sprite.png) 0 -86px no-repeat;
+    padding: 5px 0 0 42px;
+}
+i.icon.picto-gourde {
+    background: url(/theme/destnat_git_desktop/img/sprite.png) 0 -127px no-repeat;
+    padding: 5px 0 0 42px;
+}
+i.icon.picto-map {
+    background: url(/theme/destnat_git_desktop/img/sprite.png) 0 -169px no-repeat;
+    padding: 5px 0 0 42px;
+}
+i.icon.picto-photo {
+    background: url(/theme/destnat_git_desktop/img/sprite.png) 0 -253px no-repeat;
+    padding: 5px 0 0 42px;
+}
+i.icon.picto-plan {
+    background: url(/theme/destnat_git_desktop/img/sprite.png) 0 -295px no-repeat;
+    padding: 5px 0 0 42px;
+}
+i.icon.picto-pouce {
+    background: url(/theme/destnat_git_desktop/img/sprite.png) 0 -337px no-repeat;
+    padding: 5px 0 0 42px;
+}
+i.icon.picto-sac {
+    background: url(/theme/destnat_git_desktop/img/sprite.png) 0 -379px no-repeat;
+    padding: 5px 0 0 42px;
+}
+i.icon.picto-the {
+    background: url(/theme/destnat_git_desktop/img/sprite.png) 0 -421px no-repeat;
+    padding: 5px 0 0 42px;
+}
