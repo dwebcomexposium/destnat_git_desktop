@@ -35,6 +35,10 @@ i.icon.picto-map {
     background: url(/theme/destnat_git_desktop/img/sprite.png) 0 -169px no-repeat;
     padding: 5px 0 0 42px;
 }
+i.icon.picto-mountain{
+    background:url(/theme/destnat_git_desktop/img/sprite.png) 0 -211px no-repeat;
+    padding:5px 0 0 42px
+}
 i.icon.picto-photo {
     background: url(/theme/destnat_git_desktop/img/sprite.png) 0 -253px no-repeat;
     padding: 5px 0 0 42px;
