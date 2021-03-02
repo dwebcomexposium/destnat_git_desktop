@@ -67,3 +67,6 @@ i.icon.picto-the {
 .parent150145 li.ql-item.linkid116795 {
     display: none;
 }
+.is-stuck .sticky-logo-date {
+    background: url(img/logo-date2.jpg) center center no-repeat #fff;
+}
