@@ -17,3 +17,10 @@
 .catalogue .block.block-small.quicklinks.quicklinks-navigation.villes.paris {
 background-color: black;
 }
+
+.catalogue #zone2 {
+    float: left;
+    width: -webkit-calc(90% - 320px);
+    width: calc(90% - 320px);
+    margin-left: 5%;
+}
