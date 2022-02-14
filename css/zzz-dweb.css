@@ -70,3 +70,16 @@ i.icon.picto-the {
 .is-stuck .sticky-logo-date {
     background: url(img/logo-date2.jpg) center center no-repeat #fff;
 }
+
+div#catalog-v2 {
+    width: 1265px;
+}
+
+.catalogue header.site-banner {
+    background-color: black;
+}
+
+.catalogue main.container {
+    padding-top: 55px;
+    width: 1265px;
+}
