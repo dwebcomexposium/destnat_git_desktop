@@ -18,3 +18,6 @@
     width: calc(90% - 320px);
     margin-left: 5%;
 }
+#catalog-v2 .CatalogMainTitle.textLeft {
+    color: #9cbf21!important;
+}
