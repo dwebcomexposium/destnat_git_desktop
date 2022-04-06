@@ -83,3 +83,6 @@ div#catalog-v2 {
     padding-top: 55px;
     width: 1265px;
 }
+.is-stuck .sticky-logo-date {
+    background: url(img/logo-date3.jpg) center center no-repeat #fff;
+}
