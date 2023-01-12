@@ -89,3 +89,11 @@ div#catalog-v2 {
 .espace-pro header .quicklinks {
     background: url(img/date-pro2.jpg) left center no-repeat #fff;
 }
+
+.faq .site-banner {
+    background-size: 100%;
+    background-image: url(https://www.destinations-nature.com/var/comexposium/storage/images/media/destinations-nature-medias/images/destinations/afrique-moyen-orient/mauritius-article/11505484-1-fre-FR/Mauritius-article_article_l_destinations_nature_fre.jpg);
+}
+.faq div#zone2 {
+    padding-top: 32rem;
+}
