@@ -101,3 +101,6 @@ div#catalog-v2 {
     background: #fff url(img/logo-date3.jpg) no-repeat scroll left bottom/276px auto;
     padding-left: 382px;
 }
+.is-stuck .sticky-logo-date {
+    background: url(img/logo-date4.jpg) center center no-repeat #fff;
+}
