@@ -104,3 +104,10 @@ div#catalog-v2 {
 .is-stuck .sticky-logo-date {
     background: url(img/logo-date4.jpg) center center no-repeat #fff;
 }
+.espace-pro header.is-stuck .quicklinks {
+    background: #fff url(img/logo-date4.jpg) no-repeat scroll left bottom/276px auto;
+    padding-left: 382px;
+}
+.espace-pro header .quicklinks {
+    background: url(img/logo-date4.jpg) left center no-repeat #fff;
+}
